@@ -25,6 +25,10 @@ div.green {
   background-color: green;
 }
 
+div.skyblue {
+  background-color: skyblue;
+}
+
 .invisible {
   display: none;
 }
