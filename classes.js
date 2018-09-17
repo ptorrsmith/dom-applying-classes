@@ -8,6 +8,7 @@ function start () {
   one();
   two();
   three();
+  four();
     
   // Your turn! Create a new function called `two`, then call it from here.
 }
@@ -32,3 +33,8 @@ function three() {
   three.classList.add('skyblue');
 }
 // CREATE FUNCTION makeVisible HERE
+// find first invisible element and add the visible class
+function four() {
+  var four = document.getElementsByClassName('invisible')[0];
+  four.classList.add('visible');
+}
